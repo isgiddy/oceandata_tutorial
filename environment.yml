@@ -6,7 +6,6 @@ channels:
 dependencies:
   - aiohttp=3.7.3=py36h7b4949f_0
   - alabaster=0.7.12=py_0
-  - appnope=0.1.0=py36h79c6626_1003
   - argopy=0.1.6=pyh9f0ad1d_0
   - async-timeout=3.0.1=py_1000
   - attrs=20.3.0=pyhd3deb0d_0
