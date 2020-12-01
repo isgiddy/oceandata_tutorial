@@ -4,7 +4,6 @@ channels:
 dependencies:
   - python=3.6
   - erddapy=0.6.0
-  - argopy
   - ipykernel
   - matplotlib
   - xarray=0.16.0
@@ -13,4 +12,8 @@ dependencies:
   - cmocean
   - aiohttp
   - fsspec=0.8.0
+  
+  - pip:
+      - git+http://github.com/euroargodev/argopy.git@master
+      
 prefix: /opt/anaconda3/envs/data_tutorial
